@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PromoteComponent implements OnInit {
 
+  // Explicit
+  private friendStrings: string[];
+  private promoteTitle: string;
+
   constructor() { }
 
   ngOnInit() {
+
+    this.promoteTitle = 'Section Promote';
+    this.friendStrings = ['Doramon', 'Nopita', 'Sunako'];
+
   }
 
 }
